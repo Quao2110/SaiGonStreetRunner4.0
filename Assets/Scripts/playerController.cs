@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform groundCheck;
 
     [Header("Fall Settings")]
-    [SerializeField] private float fallLimitY = -10f; // giới hạn rơi xuống
+    [SerializeField] private float fallLimitY = -5f; // giới hạn rơi xuống
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI immortalText; // gán trong Inspector
