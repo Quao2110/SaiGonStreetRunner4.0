@@ -1,0 +1,13 @@
+{
+    "asset": "47365a9af213d4347a0f098829366c0a",
+    "fileName": "019995b8-0fc1-7191-89af-8ffa27727c3b.wav",
+    "prompt": "menu sound effect",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "710fcf2c62a32c2066b0c09cfa44fad3",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

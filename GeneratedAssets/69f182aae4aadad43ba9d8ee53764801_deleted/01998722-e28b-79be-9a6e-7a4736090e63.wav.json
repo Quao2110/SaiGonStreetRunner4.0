@@ -1,0 +1,13 @@
+{
+    "asset": "69f182aae4aadad43ba9d8ee53764801",
+    "fileName": "01998722-e28b-79be-9a6e-7a4736090e63.wav",
+    "prompt": "game sound",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "145e5bef40113ac223bc586d36c5fa31",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

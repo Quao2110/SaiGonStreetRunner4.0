@@ -1,0 +1,11 @@
+{
+    "asset": "696136c1dc9467e4faf34ea6196047ab",
+    "fileName": "01998e9e-6a6a-7076-a3fd-278008a270e6_Preview.png",
+    "prompt": "nền xuất hiện thêm mấy cục màu xanh khi chơi game",
+    "negativePrompt": "",
+    "model": "575ecf67-4425-4939-97b9-5e138b8ee234",
+    "modelName": "Unity Texture2D",
+    "customSeed": 135203117,
+    "w3CTraceId": "fc75ab979fe3a975a45bf6688c11047b",
+    "refinementMode": "Generation"
+}

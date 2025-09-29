@@ -9,15 +9,30 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private GameObject gameOverUi;
     [SerializeField] private GameObject gameWinUi;
+    [SerializeField] private GameObject pauseUi; // UI cho Pause Menu
 
     private bool isGameOver = false;
     private bool isGameWin = false;
+    private bool isPaused = false;
 
     void Start()
     {
         UpdateScore();
         gameOverUi.SetActive(false);
         gameWinUi.SetActive(false);
+        pauseUi.SetActive(false);
+    }
+
+    void Update()
+    {
+        // Nhấn ESC để bật/tắt Pause Menu
+        if (Input.GetKeyDown(KeyCode.Escape) && !isGameOver && !isGameWin)
+        {
+            if (isPaused)
+                Resume();
+            else
+                Pause();
+        }
     }
 
     public void AddScore(int points)
@@ -67,6 +82,21 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
+    public void Pause()
+    {
+        isPaused = true;
+        Time.timeScale = 0;
+        pauseUi.SetActive(true);
+    }
+
+    public void Resume()
+    {
+        isPaused = false;
+        Time.timeScale = 1;
+        pauseUi.SetActive(false);
+    }
+
     public bool IsGameOver() => isGameOver;
     public bool IsGameWin() => isGameWin;
+    public bool IsPaused() => isPaused;
 }
