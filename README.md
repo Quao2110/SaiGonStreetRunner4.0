@@ -18,3 +18,5 @@ Người chơi sẽ điều khiển nhân vật chạy trên những con đườ
 - 2D Sprite assets
 - Hệ thống Input của Unity
 
+Link Youtube : https://youtu.be/bEwZgmaWnbs
+Link Deploy Itch.io : https://pequao.itch.io/saigonstreetrunner
